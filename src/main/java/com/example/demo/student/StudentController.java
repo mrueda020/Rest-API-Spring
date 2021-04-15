@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController // Make this class a Restful API
+@RestController // Make this class is a Restful API
 @RequestMapping(path = "api/v1/student")
 public class StudentController {
 
